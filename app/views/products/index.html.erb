@@ -30,6 +30,16 @@
 
 <br>
 
+<p>
+  Total number of unique products: <%= @total_unique %>
+</p>
+<p>
+  Average price of products: <%= @average_price %>
+</p>
+<p>
+  Total quantity of stock: <%= @total_quantity %>
+</p>
+
 <%= link_to 'New Product', new_product_path %>
 
 <% 100.times do %>
